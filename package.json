@@ -1,0 +1,39 @@
+{
+    "name": "pgservice",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "dependencies": {
+        "babel-eslint": "^8.2.2",
+        "body-parser": "^1.18.2",
+        "cors": "2.8.5",
+        "csv-parser": "^2.3.2",
+        "eslint": "^4.19.0",
+        "eslint-config-airbnb": "^16.1.0",
+        "express": "^4.17.1",
+        "jsonwebtoken": "^8.5.1",
+        "mongoose": "^5.6.4",
+        "nodemon": "^3.0.1",
+        "xml-js": "^1.6.2"
+    },
+    "devDependencies": {
+        "assert": "^2.0.0",
+        "chai": "^3.5.0",
+        "chai-http": "^2.0.1",
+        "eslint": "^4.19.1",
+        "grunt": "^1.0.2",
+        "grunt-mocha-istanbul": "^5.0.2",
+        "istanbul": "^0.4.5",
+        "mocha": "^2.4.5",
+        "mocha-junit-reporter": "^1.17.0",
+        "nyc": "^14.1.1",
+        "supertest": "4.0.2"
+    },
+    "scripts": {
+        "test": "mocha --timeout 10000 --reporter mocha-junit-reporter",
+        "start": "node server.js",
+        "lint": "eslint ./test -o eslint.xml -f junit;exit 0;"
+    },
+    "author": "",
+    "license": "ISC"
+}

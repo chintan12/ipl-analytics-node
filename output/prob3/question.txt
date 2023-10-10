@@ -1,0 +1,4 @@
+For this API, you have to find the top 10 best economy rate bowlers with respect to year who bowled at least 10 overs​ (LEGBYE_RUNS and BYE_RUNS should not be considered for Total Runs Given by a bowler).
+
+
+Economy = (Total Runs Given/Overs bowled)

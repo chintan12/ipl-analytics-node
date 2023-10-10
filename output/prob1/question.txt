@@ -1,0 +1,4 @@
+For this API, you have to find the top 4 teams which elected to field first after winning the toss in 2016 and 2017. Sort the result based on the year and alphabetical order of the team's name. The response should be in the following JSON structure.
+
+
+The first parameter in the array is the team name, and the second parameter is count, where the count is the number of the times the team has elected to field.

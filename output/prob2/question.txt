@@ -1,0 +1,1 @@
+For this API, you have to list the total number of fours, sixes, and total score with respect to the team and year. The response should be in the following JSON structure.

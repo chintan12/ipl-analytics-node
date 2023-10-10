@@ -1,0 +1,3 @@
+For this API, you have to find the team name that has the Highest Net Run Rate with respect to the year.
+
+Net Run Rate = (Total Runs Scored/Total Overs Faced) - (Total Runs conceded/Total Overs Bowled)
